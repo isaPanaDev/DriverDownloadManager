@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>C:\temp\DDM\|ftp://ftp.netcaredata.com/DDM/|ftp://ftp.supportishere.com/|C:\Development\Driver Download Manager\Deploy\|http://www.panasonic.com/business/toughbook/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.panasonic.com/business/toughbook/download-manager/|http://10.128.210.159/DDM/|http://www.panasonic.com/business/toughbook/|http://www.netcaredata.com/fileshare/DDM/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://www.panasonic.com/business/toughbook/download-manager/|http://www.netcaredata.com/fileshare/DDM/|http://supportishere.com/files/panasonic/isabel/|http://www.panasonic.com/business/toughbook/|http://localhost/DriverDownloader/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

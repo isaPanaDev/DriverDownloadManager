@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DriverDownloader.Core</RootNamespace>
+    <AssemblyName>DriverDownloader.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppManager.cs" />
+    <Compile Include="AutoDownloadsExtension.cs" />
+    <Compile Include="AutoDownloadsUIExtension.cs" />
+    <Compile Include="BaseProtocolProvider.cs" />
+    <Compile Include="CalculatedSegment.cs" />
+    <Compile Include="ClipboardHelper.cs" />
+    <Compile Include="Common\BoolFormatter.cs" />
+    <Compile Include="Common\ByteFormatter.cs" />
+    <Compile Include="Common\PathHelper.cs" />
+    <Compile Include="Common\TimeSpanFormatter.cs" />
+    <Compile Include="Concurrency\ObjectLocker.cs" />
+    <Compile Include="Concurrency\ReaderWriterObjectLocker.cs" />
+    <Compile Include="DayHourMatrix.cs" />
+    <Compile Include="Downloader.cs" />
+    <Compile Include="DownloaderState.cs" />
+    <Compile Include="DownloadFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DownloadFolder.Designer.cs">
+      <DependentUpon>DownloadFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadManager.cs" />
+    <Compile Include="DownloadThreads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DownloadThreads.Designer.cs">
+      <DependentUpon>DownloadThreads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="FavorateModels.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FavorateModels.Designer.cs">
+      <DependentUpon>FavorateModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HttpFtpProtocolExtension.cs" />
+    <Compile Include="HttpProtocolProvider.cs" />
+    <Compile Include="IAutoDownloadsParameters.cs" />
+    <Compile Include="IExtension.cs" />
+    <Compile Include="IExtensionParameters.cs" />
+    <Compile Include="IProtocolProvider.cs" />
+    <Compile Include="ISegmentCalculator.cs" />
+    <Compile Include="IUIExtension.cs" />
+    <Compile Include="Jobs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Jobs.Designer.cs">
+      <DependentUpon>Jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Languages.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Languages.Designer.cs">
+      <DependentUpon>Languages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LimitCfg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LimitCfg.Designer.cs">
+      <DependentUpon>LimitCfg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinSizeSegmentCalculator.cs" />
+    <Compile Include="Options\DriverOptions.cs" />
+    <Compile Include="Options\DriverSubOptions.cs" />
+    <Compile Include="Options\IOptions.cs" />
+    <Compile Include="Options\ISubOptions.cs" />
+    <Compile Include="Options\LanguageOptions.cs" />
+    <Compile Include="Options\LanguageSubOptions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolProviderFactory.cs" />
+    <Compile Include="ReaderWriterObjectLocker.cs" />
+    <Compile Include="RemoteFileInfo.cs" />
+    <Compile Include="FilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FilterControl.Designer.cs">
+      <DependentUpon>FilterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceLocation.cs" />
+    <Compile Include="Segment.cs" />
+    <Compile Include="SegmentState.cs" />
+    <Compile Include="SetSpeedLimitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetSpeedLimitDialog.Designer.cs">
+      <DependentUpon>SetSpeedLimitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SingleInstanceTracker.cs" />
+    <Compile Include="SpeedLimitExtension.cs" />
+    <Compile Include="ToolTipWithImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VideoDownloadExtension.cs" />
+    <Compile Include="VideoDownloadHandler.cs" />
+    <Compile Include="VideoDownloadUIExtension.cs" />
+    <Compile Include="WaitControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaitControl.Designer.cs">
+      <DependentUpon>WaitControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DownloadFolder.resx">
+      <DependentUpon>DownloadFolder.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DownloadFolder1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadThreads.resx">
+      <DependentUpon>DownloadThreads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FavorateModels.resx">
+      <DependentUpon>FavorateModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterControl.resx">
+      <DependentUpon>FilterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jobs.resx">
+      <DependentUpon>Jobs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages.resx">
+      <DependentUpon>Languages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LimitCfg.resx">
+      <DependentUpon>LimitCfg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetSpeedLimitDialog.resx">
+      <DependentUpon>SetSpeedLimitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitControl.resx">
+      <DependentUpon>WaitControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

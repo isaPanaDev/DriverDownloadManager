@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="2.0.0.40" name="DriverDownloader.exe" publicKeyToken="a5270678cece2b35" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="TBook.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DriverDownloader" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="DriverDownloader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DriverDownloader.exe" size="146432">
+      <assemblyIdentity name="DriverDownloader" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kJVI0RTaIHNduZqixjg6sOmqwfY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DriverDownloader.Core.dll" size="80896">
+      <assemblyIdentity name="DriverDownloader.Core" version="1.0.0.0" publicKeyToken="863255BE8EC873C3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TsUvqzBE+hDkChCCnGF90AQ0QKU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DriverDownloader.JSON.exe" size="35328">
+      <assemblyIdentity name="DriverDownloader.JSON" version="1.0.0.0" publicKeyToken="863255BE8EC873C3" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>p2fz3s15B4UoUBpGwC/MVLhpPcs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it-IT\DriverDownloader.resources.dll" size="9216">
+      <assemblyIdentity name="DriverDownloader.resources" version="1.0.0.0" language="it-IT" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>k45aP+TNfl2ATDoJ7Oyk5iIeWSo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ObjectListView.dll" size="427008">
+      <assemblyIdentity name="ObjectListView" version="2.5.1.34161" publicKeyToken="B1C5BF581481BCD4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rx5Y9Vea8XbWmxRW7opmI5tDMZM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="7zip\7z.dll" size="914432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NE+vYcPrdvSi+2RS6D7RbJzOc+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="7zip\7z.exe" size="163840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IP6hMU2+1VLV/t7gluIFA2kXLuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DriverDownloader.exe.config" size="2495">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TM7siFe46ZSkBOcu2qzMuwYVtvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\blank.gif" size="170">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GjN703YNuR9dncJwKakpxoSExkA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\error.gif" size="306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TzZfrutkgSgfRUyGIx4a6/omJ2A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\help.jpg" size="13912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uy1QSl5zX1ivPyAJSiTQZfmmIak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\modelmark.png" size="20486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7tB/etb2jXBhXStkBTSraK5UHfE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolMoveSelectionsDown.Image.png" size="265">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5btXPQjNLifaq14GS/rcv7SpEMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolMoveSelectionsUp.Image.png" size="257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wedn1DvUy+ZnnHiDsP0H2DdKCkg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolPause.Image.png" size="255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OWN8G4u9I09uCX0+lgjzsjJ65d8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolPauseAll.Image.png" size="286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DJUFpwD70815B/fetAtI+pznDv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolQueue.Image.png" size="925">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zN+uaj4fPfcYBFT46J+moxnIuQ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolRemove.Image.png" size="462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uDpV/PRmC2y3/T002o9zYQQUoL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\toolStart.Image.png" size="290">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VxqCVNmqODRfrWPwTf5UTEHkSmI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TBook.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7l7W6f8jX50Oj4WTHafmhlNlJ7c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Panasonic Corporation of North America, OU=PSCNA, O=Panasonic Corporation of North America, L=Secaucus, S=NJ, C=US" issuerKeyHash="fdac6132936c45d6e2ee855f9abae7769968cce7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>t8D2SjuhHdeND28ZeKjoiBVDTpg=</DigestValue></Reference></SignedInfo><SignatureValue>Lid30hEDqLhYq95UVljAsRnmHGvT80ugWLrPx6HwRu3ODkjT5QxugLkHNtsqI+nw+WCP27qZpaSDVP6z3z6CBdzfBXQWVzlkdaVO8TJFssDZNU5ZkLrjNPGHiUnTMmzb4zgN/UQ83GrCGeZUufRqGufUtlODyR1qOVjCtGbTCUEIur9l31BNrm2WrzgLNYzqsmpSW5n4919yThOiSg7Y9313Te5SlzO4vzW/CqYd5XyrkTeQcDY7NGiWYJ3JVhXxs5rm5dN8ZCXcKDXs2mw0P2ZON2lblmO+ZaZrZoal+uhctt8JQ627/KVuZF0P1UTpCYa8CZRxM1OjpyfbvcwGIw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lm4xH/s3ao/CAgYfppi2X3+ZlICrUt04a1LDQXUtdWvm2zd3mU9TV+jDkZQBOYAiMHHheVvfSjlP/O/69ldhVaLtAhswJivMmPOEP6Cghx5nxj4cqvUDOqgJUA2rRIQiOwkdXs3bN4ttf/UTG4jcmynzZXk6ir+JrVUrpfuR1YpazKzXr5pZFTKw8SJrxpb44TmcOp7qi79XL4BNLWUzdKUNKX489UTJVWNAXO+f8xgtVeMX7uiE+9Cn0B7AWB+OG0bTKMX4zBaBpqtEkLvkY/3burgpqeVPpGlUyCnhGl/35uH/dcQsl6hCQ8/ZaBtNmTSLzjHaYzVIdBqEuL2HFw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="984e431588e8a878196f0f8dd71da13b4af6c0b7" Description="" Url=""><as:assemblyIdentity version="2.0.0.40" name="DriverDownloader.exe" publicKeyToken="a5270678cece2b35" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Panasonic Corporation of North America, OU=PSCNA, O=Panasonic Corporation of North America, L=Secaucus, S=NJ, C=US</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dQ2i4DZb/7068GHiX0Fc9nKqCNQ=</DigestValue></Reference></SignedInfo><SignatureValue>fbL1onrurT+DBum1TpdTI0pStQhtUKyz8EA1nX2tszWZ/+VjMJ6HBCf3oOdHPBAVU0hNsS80EdKMvwXjeYkh+FPwlZoJtaIUAkXMTLu1T3OVTuR8w5ZDtYvqW5wxOxWLWHI3nT9GHFAnbrgSxZjDjS1Kyi8rAKy3PvLKXJu3+F1SzNWhi0KUUwJwZJmBp9SEelcp8cvo26aqK17nmh553VJqoUKsEAHSXUVcsjJLtVSD0Bw2JK3PxV90WxKt5/UamQ+sc+XkjcE3KC3O01f68ei3r/hfT3VWMQdlYxNm7c0yfhbm4b/1B5zxFYX9AvQGLmurIRW0Li76keDho4sAmw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lm4xH/s3ao/CAgYfppi2X3+ZlICrUt04a1LDQXUtdWvm2zd3mU9TV+jDkZQBOYAiMHHheVvfSjlP/O/69ldhVaLtAhswJivMmPOEP6Cghx5nxj4cqvUDOqgJUA2rRIQiOwkdXs3bN4ttf/UTG4jcmynzZXk6ir+JrVUrpfuR1YpazKzXr5pZFTKw8SJrxpb44TmcOp7qi79XL4BNLWUzdKUNKX489UTJVWNAXO+f8xgtVeMX7uiE+9Cn0B7AWB+OG0bTKMX4zBaBpqtEkLvkY/3burgpqeVPpGlUyCnhGl/35uH/dcQsl6hCQ8/ZaBtNmTSLzjHaYzVIdBqEuL2HFw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIFdTCCBF2gAwIBAgIHK1RkDvbrDDANBgkqhkiG9w0BAQUFADCByjELMAkGA1UEBhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAYBgNVBAoTEUdvRGFkZHkuY29tLCBJbmMuMTMwMQYDVQQLEypodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkxMDAuBgNVBAMTJ0dvIERhZGR5IFNlY3VyZSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTERMA8GA1UEBRMIMDc5NjkyODcwHhcNMTIwOTAxMTc1MDA1WhcNMTMwODI5MTk1MjM1WjCBnzELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAk5KMREwDwYDVQQHEwhTZWNhdWN1czEvMC0GA1UEChMmUGFuYXNvbmljIENvcnBvcmF0aW9uIG9mIE5vcnRoIEFtZXJpY2ExDjAMBgNVBAsTBVBTQ05BMS8wLQYDVQQDEyZQYW5hc29uaWMgQ29ycG9yYXRpb24gb2YgTm9ydGggQW1lcmljYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJZuMR/7N2qPwgIGH6aYtl9/mZSAq1LdOGtSw0F1LXVr5ts3d5lPU1fow5GUATmAIjBx4Xlb30o5T/zv+vZXYVWi7QIbMCYrzJjzhD+goIceZ8Y+HKr1AzqoCVANq0SEIjsJHV7N2zeLbX/1ExuI3Jsp82V5Ooq/ia1VK6X7kdWKWsys16+aWRUysPEia8aW+OE5nDqe6ou/Vy+ATS1lM3SlDSl+PPVEyVVjQFzvn/MYLVXjF+7ohPvQp9AewFgfjhtG0yjF+MwWgaarRJC75GP927q4KanlT6RpVMgp4Rpf9+bh/3XELJeoQkPP2WgbTZk0i84x2mM1SHQahLi9hxcCAwEAAaOCAYcwggGDMA8GA1UdEwEB/wQFMAMBAQAwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDgYDVR0PAQH/BAQDAgeAMDMGA1UdHwQsMCowKKAmoCSGImh0dHA6Ly9jcmwuZ29kYWRkeS5jb20vZ2RzNS0xNi5jcmwwUwYDVR0gBEwwSjBIBgtghkgBhv1tAQcXAjA5MDcGCCsGAQUFBwIBFitodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMIGABggrBgEFBQcBAQR0MHIwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmdvZGFkZHkuY29tLzBKBggrBgEFBQcwAoY+aHR0cDovL2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkX2ludGVybWVkaWF0ZS5jcnQwHwYDVR0jBBgwFoAU/axhMpNsRdbi7oVfmrrndplozOcwHQYDVR0OBBYEFE3aS/RGIe36AwV2cbq+Au+d+4pCMA0GCSqGSIb3DQEBBQUAA4IBAQCMu36K05jcRkULnGF7Lq1ffaS6Doew3zZnIesQVs1+uSBOJXyGjz6HOjb0YXHf7TB0wmVkbprerFNd3LM0qgla5YteP95WzBmk+UOiJ2bush31xrGt0ZDOeVp0W59uhyk2L/EM2KkjynGWzKRbOFmTSVItiIjdqkOncvT+fRjecQsv3qN9gL6Mihz+Es9XrxWvn/rjfx6PQn9HFYhksB+3QDfrByO0KHecTA5AlR33HdOWbpHlDoYaWWVqVYiUaqT8ISgLmHqAIFQPxQr3XFvmwIDT/Dkxq6clUTEiOCs2owKZRboRD2qvbbTHhLLX3Qf0skwcNGF/UOIdSsg0054Q</X509Certificate><X509Certificate>MIIE3jCCA8agAwIBAgICAwEwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCVVMxITAfBgNVBAoTGFRoZSBHbyBEYWRkeSBHcm91cCwgSW5jLjExMC8GA1UECxMoR28gRGFkZHkgQ2xhc3MgMiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw0wNjExMTYwMTU0MzdaFw0yNjExMTYwMTU0MzdaMIHKMQswCQYDVQQGEwJVUzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5jb20sIEluYy4xMzAxBgNVBAsTKmh0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeTEwMC4GA1UEAxMnR28gRGFkZHkgU2VjdXJlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MREwDwYDVQQFEwgwNzk2OTI4NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMQt1RWMnCZM7DI161+4WQFapmGBWTtwY6vj3D3HKrjJM9N55DrtPDAjhI6zMBS2sofDPZVUBJ7fmd0LJR4h3mUpfjWoqVTr9vcyOdQmVZWt7/v+WIbXnvQAjYwqDL1CBM6nPwT27oDyqu9SoWlm2r4arV3aLGbqGmu75RpRSgAvSMeYddi5Kcju+GZtCpyz8/x4fKL4o/K1w/O5epHBp+YlLpyo7RJlbmr2EkRTcDCVw5wrWCs9CHRK8r5RsL+H0EwnWGu1NcWdrxcx+AuP7q2BNgWJCJjPOq8lh8BJ6qf9Z/dFjpfMFDniNoW1fho3/Rb2cRGadDAW/hOUoz+EDU8CAwEAAaOCATIwggEuMB0GA1UdDgQWBBT9rGEyk2xF1uLuhV+auud2mWjM5zAfBgNVHSMEGDAWgBTSxLDSkdRMEXGzYcs9of7dqGrU4zASBgNVHRMBAf8ECDAGAQH/AgEAMDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuZ29kYWRkeS5jb20wRgYDVR0fBD8wPTA7oDmgN4Y1aHR0cDovL2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkcm9vdC5jcmwwSwYDVR0gBEQwQjBABgRVHSAAMDgwNgYIKwYBBQUHAgEWKmh0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeTAOBgNVHQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQEFBQADggEBANKGwOy9+aG2Z+5mC6IGOgRQjhVyrEp0lVPLN8tESe8HkGsz2ZbwlFalEzAFPIUyIXvJxwqoJKSQ3kbTJSMUA2fCENZvD117esyfxVgqwcSeIaha86ykRvOe5GPLL5CkKSkB2XIsKd83ASe8T+5o0yGPwLPk9Qnt0hCqU7S+8MxZC9Y7lhyVJEnfzuz9p0iRFEUOOjZv2kWzRaJBydTXRE4+uXR21aITVSzGh6O1mawGhId/dQb8vxRMDsxuxN89txJx9OjxUUAiKEngHUuHqDTMBqLdElrRhjZkAzVvb3du6/KFUJheqwNTrZEjYx8WnM25sgVjOuH0aBsXBTWVU+4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

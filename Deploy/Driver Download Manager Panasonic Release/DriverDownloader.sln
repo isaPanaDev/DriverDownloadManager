@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverDownloader", "DriverDownloader.App\DriverDownloader.csproj", "{7D1A4B34-06AD-4E82-96B9-73DB26607E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverDownloader.Core", "DriverDownloader.Core\DriverDownloader.Core.csproj", "{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverDownloader.JSON", "DriverDownloader.JSON\DriverDownloader.JSON.csproj", "{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{869AA771-2172-4C3C-9D19-2950751351BE}"
+	ProjectSection(SolutionItems) = preProject
+		DriverDownloader.vsmdi = DriverDownloader.vsmdi
+		..\..\error.gif = ..\..\error.gif
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DriverDownloader.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Debug|x86.ActiveCfg = Debug|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Debug|x86.Build.0 = Debug|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Release|Any CPU.ActiveCfg = Release|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Release|x86.ActiveCfg = Release|x86
+		{7D1A4B34-06AD-4E82-96B9-73DB26607E25}.Release|x86.Build.0 = Release|x86
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5DB8FE43-7EE2-4408-9B82-BE1A403CB629}.Release|x86.ActiveCfg = Release|Any CPU
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Debug|x86.ActiveCfg = Debug|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Debug|x86.Build.0 = Debug|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Release|Any CPU.ActiveCfg = Release|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Release|x86.ActiveCfg = Release|x86
+		{2EA5C1D8-AC8D-4E6A-B0C3-9FB25B1208AB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

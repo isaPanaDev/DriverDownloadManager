@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DownloadList_Messages_Confirm" xml:space="preserve">
+    <value>Are you sure that you want to remove selected downloads? (Italian)</value>
+  </data>
+  <data name="DownloadList_Tooltip_OpenFile" xml:space="preserve">
+    <value>Open File (Italian)</value>
+  </data>
+  <data name="DownloadList_Tooltip_Toggle" xml:space="preserve">
+    <value>Toggle Auto-Downloads On/Off (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_ClearAll" xml:space="preserve">
+    <value>Clear All (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_ClearLog" xml:space="preserve">
+    <value>Clear Log (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Completed" xml:space="preserve">
+    <value>Completed (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_CurrentTry" xml:space="preserve">
+    <value>Current Try (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_CurrentURL" xml:space="preserve">
+    <value>Current URL (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Done" xml:space="preserve">
+    <value>Done (MB) (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_EndPos" xml:space="preserve">
+    <value>End Position (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Error" xml:space="preserve">
+    <value>Error (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_File" xml:space="preserve">
+    <value>File (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_JobList" xml:space="preserve">
+    <value>Job List (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Left" xml:space="preserve">
+    <value>Left (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Log" xml:space="preserve">
+    <value>Log (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Pause" xml:space="preserve">
+    <value>Pause (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Progress" xml:space="preserve">
+    <value>Progress (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Rate" xml:space="preserve">
+    <value>Rate (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Remove" xml:space="preserve">
+    <value>Remove (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Size" xml:space="preserve">
+    <value>Size (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_SizeMB" xml:space="preserve">
+    <value>Size (MB) (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Start" xml:space="preserve">
+    <value>Start (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_StartAll" xml:space="preserve">
+    <value>Start All (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_StartPos" xml:space="preserve">
+    <value>Start Position (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_State" xml:space="preserve">
+    <value>State (Italian)</value>
+  </data>
+  <data name="DownloadList_UI_Status" xml:space="preserve">
+    <value>Status (Italian)</value>
+  </data>
+  <data name="DownloadList_U_PauseAll" xml:space="preserve">
+    <value>Pause All (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_Category" xml:space="preserve">
+    <value>Category (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_Date" xml:space="preserve">
+    <value>Date Released (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_Download" xml:space="preserve">
+    <value>Download (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_DriverName" xml:space="preserve">
+    <value>Driver Name (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_Size" xml:space="preserve">
+    <value>Size (Italian)</value>
+  </data>
+  <data name="DriverList_Columns_Version" xml:space="preserve">
+    <value>Version (Italian)</value>
+  </data>
+  <data name="DriverList_Content_NA" xml:space="preserve">
+    <value>N/A (Italian)</value>
+  </data>
+  <data name="DriverList_Tooltip_DriverList" xml:space="preserve">
+    <value>Drivers List (Italian)</value>
+  </data>
+  <data name="MainForm_AppName" xml:space="preserve">
+    <value>Driver Download Manager (Italian)</value>
+  </data>
+  <data name="MainForm_Buttons_Download" xml:space="preserve">
+    <value>Download (Italian)</value>
+  </data>
+  <data name="MainForm_Buttons_Select" xml:space="preserve">
+    <value>Select/U-Select (Italian)</value>
+  </data>
+  <data name="MainForm_Buttons_ViewDrivers" xml:space="preserve">
+    <value>View Drivers (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_DefaultDir" xml:space="preserve">
+    <value>Default Download Directory: (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_DefaultFound" xml:space="preserve">
+    <value>0 Found (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_Found" xml:space="preserve">
+    <value> Found (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_HighlightHint" xml:space="preserve">
+    <value>Highlighted items are\nalready in the target directory (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_LookingForDrivers" xml:space="preserve">
+    <value>Looking for drivers... (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_Mark" xml:space="preserve">
+    <value>Model Version (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_Model" xml:space="preserve">
+    <value>Model Number (Italian)</value>
+  </data>
+  <data name="MainForm_Labels_OS" xml:space="preserve">
+    <value>Operating System (Italian)</value>
+  </data>
+  <data name="MainForm_Links_DefaultDir" xml:space="preserve">
+    <value>C:\ (Italian)</value>
+  </data>
+  <data name="MainForm_Link_ReportIssue" xml:space="preserve">
+    <value>Report an Issue (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_About" xml:space="preserve">
+    <value>About (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_Exit" xml:space="preserve">
+    <value>Exit (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_File" xml:space="preserve">
+    <value>File (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_Help" xml:space="preserve">
+    <value>Help (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_Preferences" xml:space="preserve">
+    <value>Preferences (Italian)</value>
+  </data>
+  <data name="MainForm_Menu_Tools" xml:space="preserve">
+    <value>Tools (Italian)</value>
+  </data>
+  <data name="MainForm_MessageCaptions_Error" xml:space="preserve">
+    <value>Error (Italian)</value>
+  </data>
+  <data name="MainForm_MessageCaptions_Information" xml:space="preserve">
+    <value>Information (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_EmptyProductList" xml:space="preserve">
+    <value>Failed to get product lists, please check your internet connection. (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_Error" xml:space="preserve">
+    <value>Unknow error, please check your input data. (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_FailedToSearchDrivers" xml:space="preserve">
+    <value>Failed to seach drivers, please check your internet connection. (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_InvalidURL" xml:space="preserve">
+    <value>Invalid URL format, please check the location field. (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_ModelMarkOSNotAllSpecified" xml:space="preserve">
+    <value>Please select correct Model, Mark and OS. (Italian)</value>
+  </data>
+  <data name="MainForm_Messages_NoDriverSelected" xml:space="preserve">
+    <value>There are no drivers selected. (Italian)</value>
+  </data>
+  <data name="MainForm_StaticText_Found" xml:space="preserve">
+    <value> Found (Italian)</value>
+  </data>
+</root>
